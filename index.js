@@ -1,9 +1,9 @@
 const { WebClient } = require('@slack/web-api');
 const axios = require('axios').default;
 const images = {
-  "morning": "Morning.png",
-  "afternoon": "ProfilePic.png",
-  "night": "Nightime.png"
+  "morning": "https://i.ibb.co/5jWJF8G/Morning.png",
+  "afternoon": "https://i.ibb.co/5jWJF8G/Profile-Pic.png",
+  "night": "https://i.ibb.co/5jWJF8G/Night.png"
 } 
 async function setPFP() {
   var hour = new Date().getHours() + 8
